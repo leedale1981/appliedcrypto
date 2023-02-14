@@ -382,7 +382,7 @@ string="hello"
 print ("APR1:"+passlib.hash.apr_md5_crypt.hash(string, salt=salt))
 ```
 
-We can created a simple Python program with the passlib library, and add the same salt as the example above:
+We can create a simple Python program with the passlib library, and add the same salt as the example above:
 
 ```
 APR1:$apr1$PkWj6gM4$XGWpADBVPyypjL/cL0XMc1
